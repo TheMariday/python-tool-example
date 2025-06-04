@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "my_example" # make sure this matches the name of the directory called my_example
+version = "V0.0.1"
+
+dependencies = [
+    # "numpy", # < Put your other dependencies here as a list
+]
+
+# put your python supported versions here, make sure to change this in the github workflow as well!
+requires-python = ">=3.9,<3.13"
+
+maintainers = [
+  {name = "YourNameHere"},
+]
+
+description = "Describe me!"
+readme = "README.md"
+license = {file = "LICENSE"}
+
+
+[project.optional-dependencies]
+develop = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "flake8",
+    "flake8-bugbear"
+    ]
+
+[project.scripts]
+my_example = "my_example.scripts.my_example_cli:main"
+# put other scripts here
