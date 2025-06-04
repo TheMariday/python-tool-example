@@ -22,16 +22,6 @@ description = "Describe me!"
 readme = "README.md"
 license = {file = "LICENSE"}
 
-
-[project.optional-dependencies]
-develop = [
-    "pytest",
-    "pytest-cov",
-    "black",
-    "flake8",
-    "flake8-bugbear"
-    ]
-
 [project.scripts]
 my_example = "my_example.scripts.my_example_cli:main"
 # put other scripts here
