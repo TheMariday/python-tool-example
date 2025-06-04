@@ -1,6 +1,6 @@
 [![Supported Python Version](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)]()
 
-[![Test Workflow](https://github.com/TheMariday/MariMapper/actions/workflows/test_workflow.yml/badge.svg)](https://github.com/TheMariday/MariMapper/actions/workflows/test_workflow.yml)
+[![Test Workflow](https://github.com/TheMariday/python-tool-example/actions/workflows/test_workflow.yml/badge.svg)](https://github.com/TheMariday/python-tool-example/actions/workflows/test_workflow.yml)
 
 ### Example Python Project!
 
